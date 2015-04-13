@@ -2,7 +2,9 @@
 #
 # /etc/init.d/kibana -- startup script for kibana4
 #
-#
+# chkconfig:   2345 80 20
+# description: kibana is a web frontend for logstash.
+
 . /etc/init.d/functions
 
 PIDFILE="/var/run/kibana.pid"
